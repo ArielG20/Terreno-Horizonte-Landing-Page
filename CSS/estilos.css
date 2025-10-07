@@ -1,0 +1,138 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* HEADER */
+.hero {
+    text-align: center;
+    background: linear-gradient(to bottom right, #00a86b, #007050);
+    color: white;
+    padding: 4rem 1rem;
+}
+
+.hero img {
+  display: block;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cta {
+    background-color: #ffd700;
+    color: #333;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-cta:hover {
+    background-color: #ffcc00;
+}
+
+/* NAV */
+.navbar {
+    background-color: #004b2e;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #00a86b;
+}
+
+/* SECCIONES */
+.section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.section h2 {
+    color: #007050;
+    margin-bottom: 1.5rem;
+}
+
+/* Beneficios */
+.beneficios-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.beneficio {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Galería */
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.galeria-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Mapa */
+.mapa iframe {
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #004b2e;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.redes a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
